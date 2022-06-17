@@ -26,6 +26,47 @@ body {
   background-color: #197bbd;
   margin: 50px; }
 
+/*===== SECCION SERVICIOS=====*/
+.desarrollo {
+  background-color: #eec2c2;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .desarrollo h3 {
+    color: #080e1b; }
+  .desarrollo p {
+    color: #080e1b; }
+
+.concepto {
+  background-color: #aa7575;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .concepto h3 {
+    color: #080e1b; }
+  .concepto p {
+    color: #080e1b; }
+
+.comunicaciones {
+  background-color: #cf8686;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .comunicaciones h3 {
+    color: #080e1b; }
+  .comunicaciones p {
+    color: #080e1b; }
+
+.seo {
+  background-color: #775c5c;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem; }
+  .seo h3 {
+    color: #080e1b; }
+  .seo p {
+    color: #080e1b; }
+
 /*===== SECCION EQUIPO=====*/
 .mapa {
   background: url(../img/mapa.png);

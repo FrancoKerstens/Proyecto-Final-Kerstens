@@ -34,7 +34,36 @@ body {
 	margin: 50px;
 }
 
-
+/*===== SECCION SERVICIOS=====*/
+$bgcaja1: #eec2c2;
+$bgcaja2: #aa7575;
+$bgcaja3: #cf8686;
+$bgcaja4: #775c5c;
+$oscuro: #080e1b;
+@mixin estilosgrid ($color,$bg){
+	background-color: $bg;
+	border-radius: 5px;
+	padding: 1rem;
+	margin: 1rem;
+	h3{
+		color: $color
+	}
+	p{
+		color: $color;
+	}
+}
+.desarrollo{
+	@include estilosgrid($oscuro, $bgcaja1)
+}
+.concepto{
+	@include estilosgrid($oscuro, $bgcaja2)
+}
+.comunicaciones{
+	@include estilosgrid($oscuro, $bgcaja3)
+}
+.seo{
+	@include estilosgrid($oscuro, $bgcaja4)
+}
 /*===== SECCION EQUIPO=====*/
 
 
