@@ -84,6 +84,12 @@ body {
   margin-left: 100px;
   margin-top: 150px; }
 
+/*===== SECCION HISTORIA=====*/
+.bodyH {
+  background-color: #d7e7f3; }
+  .bodyH .histori-m {
+    font-family: 'Koulen', cursive; }
+
 /*===== SECCION FORMULARIO=====*/
 #section-formulario {
   background-color: #1b2a4e;
